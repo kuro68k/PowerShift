@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/paul.qureshi/Documents/GitHub/PowerShift/hardware/PowerShift.sch</source>
+    <date>28/06/2018 15:45:20</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Power shift register driver</title>
+        <company/>
+        <rev>1.0</rev>
+        <date/>
+        <source>PowerShift.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Licence: GPL V3"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U9">
+      <value>ATXMEGA32E5-AU</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATXMEGA32E5-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FBBA8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FBC8A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>AVR-PDI-6A</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_2x03_Pitch2.54mm</footprint>
+      <libsource lib="kuro" part="AVR-PDI-6A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FBD6F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP1700</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="regul" part="MCP1700-3302E_SOT23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FBDDB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MICRO_USB</value>
+      <footprint>kuro:Molex_47346-0001_Micro_USB_SMT</footprint>
+      <libsource lib="conn" part="USB_A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FC0C8</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Barrel_Jack</value>
+      <footprint>kuro:DC_Jack_SMD_FC6814xS_6941</footprint>
+      <libsource lib="conn" part="Barrel_Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FC43F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FD8A7</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FDBE0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FDD02</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FEA36</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FF026</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FFAF9</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B2FFFDE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B30219B</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3021A1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3021B5</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3043B5</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3043BB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3043C7</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3050D4</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3050DA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3050E6</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3050F2</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3050F8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B305104</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPIC6B595</value>
+      <footprint>Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm</footprint>
+      <libsource lib="Primayer" part="TPIC6B595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B305153</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>JST-ZR</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B305159</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B305165</tstamp>
+    </comp>
+    <comp ref="JMP1">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B309AED</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>SHIFT_IN</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B30E3B4</tstamp>
+    </comp>
+    <comp ref="JMP2">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31022E</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>KT3225T</value>
+      <footprint>kuro:KT3225T</footprint>
+      <libsource lib="kuro" part="KT3225T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B317E41</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B318106</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>kuro:SMD_Crystal_Multi_QC6CB_7A_ABM7</footprint>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B318B60</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B318D41</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B318DF5</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31A4B4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>Rntc</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31AF04</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31F8D1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B320009</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_ALT</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <libsource lib="device" part="LED_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32513A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B325729</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>SHIFT_IN</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B332B3E</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B33EDA0</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>JST-ZR</value>
+      <footprint>kuro:B5B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B345A2C</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TPS54302</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="kuro" part="TPS54302"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3100A3</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B310635</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B310ED0</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>12u</value>
+      <footprint>kuro:Bourns_SDR1307_14x14mm</footprint>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B311BF3</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>91p</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31375A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31471D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10.1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3149D0</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>22u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B314AC7</tstamp>
+    </comp>
+    <comp ref="JMP3">
+      <value>GS2</value>
+      <footprint>Connectors:GS2</footprint>
+      <libsource lib="conn" part="GS2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B317A5E</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B31F9CB</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3202B5</tstamp>
+    </comp>
+    <comp ref="JMP4">
+      <value>GS3</value>
+      <footprint>Connectors:GS3</footprint>
+      <libsource lib="conn" part="GS3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B32F30E</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>TEST</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B335191</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>TEST</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3358B4</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>TEST</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B335977</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>TEST</value>
+      <footprint>Mounting_Holes:MountingHole_2.7mm_M2.5_Pad</footprint>
+      <libsource lib="device" part="TEST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B335A3D</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>SHIFT_IN</value>
+      <footprint>kuro:B8B-ZR-SM4-TF</footprint>
+      <libsource lib="conn" part="Conn_01x08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B33885D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>kuro:Switch_FSM-JSM-Series</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34B57E</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <footprint>kuro:Switch_FSM-JSM-Series</footprint>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34B936</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATXMEGA8E5-AU">
+      <aliases>
+        <alias>ATXMEGA16E5-AU</alias>
+        <alias>ATXMEGA32E5-AU</alias>
+      </aliases>
+      <description>TQFP32, 8k Flash, 2k Boot, 1k SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/Images/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATXMEGA8E5-AU</field>
+        <field name="Footprint">TQFP32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="AC4/ADC4/PA4" type="BiDi"/>
+        <pin num="3" name="DAC1/AC3/ADC3/PA3" type="BiDi"/>
+        <pin num="4" name="DAC0/AC2/ADC2/PA2" type="BiDi"/>
+        <pin num="5" name="AC1/ADC1/PA1" type="BiDi"/>
+        <pin num="6" name="AREF/AC0/ADC0/PA0" type="BiDi"/>
+        <pin num="7" name="PDI_DATA" type="input"/>
+        <pin num="8" name="~RESET~/PDI_CLK" type="input"/>
+        <pin num="9" name="AC0OUT/IN3/MOSI/TXD0/OC4DHS/OC4D/PC7" type="BiDi"/>
+        <pin num="10" name="AC1OUT/IN0/MISO/RXD0/~OC4DLS~/OC4C/PC6" type="BiDi"/>
+        <pin num="11" name="IN2/SCK/XCK0/OC5B/OC4CHS/OC4B/PC5" type="BiDi"/>
+        <pin num="12" name="EXTCLK/OUT0/IN1/~SS~/OC5A/~OC4CLS~/OC4A/PC4" type="BiDi"/>
+        <pin num="13" name="IN3/TXD0/OC4BHS/OC4D/PC3" type="BiDi"/>
+        <pin num="14" name="IN0/RXD0/~OC4BLS~/OC4C/PC2" type="BiDi"/>
+        <pin num="15" name="IN2/SCL/XCK0/OC4AHS/OC4B/PC1" type="BiDi"/>
+        <pin num="16" name="OUT0/IN1/SDA/~OC4ALS~/OC4A/PC0" type="BiDi"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="PR1/XTAL1/TOSC1/EXTCLK/AC0OUT" type="BiDi"/>
+        <pin num="20" name="PR0/XTAL2/TOSC2/CLKOUT/EVOUT/RTCOUT/AC1OUT" type="BiDi"/>
+        <pin num="21" name="PD7/ADC15/TXD0/IN3/CLKOUT/EVOUT/AC0OUT" type="BiDi"/>
+        <pin num="22" name="PD6/ADC14/RXD0/IN0/RTCOUT/AC1OUT" type="BiDi"/>
+        <pin num="23" name="PD5/ADC13/OC5B/XCK0/IN2" type="BiDi"/>
+        <pin num="24" name="PD4/ADC12/OC5A/IN1/OUT0/CLKOUT/EVOUT" type="BiDi"/>
+        <pin num="25" name="PD3/ADC11/TXD0/IN3/OC1" type="BiDi"/>
+        <pin num="26" name="PD2/ADC10/RXD0/IN0/OC0" type="BiDi"/>
+        <pin num="27" name="PD1/ADC1/XCK0/SCL/IN2" type="BiDi"/>
+        <pin num="28" name="PD0/ADC8/SDA/IN1/OUT0/AREF" type="BiDi"/>
+        <pin num="29" name="AC0OUT/AC7/ADC7/PA7" type="BiDi"/>
+        <pin num="30" name="AC1OUT/AC6/ADC6/PA6" type="BiDi"/>
+        <pin num="31" name="AC5/ADC5/PA5" type="BiDi"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="kuro" part="AVR-PDI-6A">
+      <description>Atmel PDI programming header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-PDI-6A</field>
+        <field name="Footprint">AVR-PDI-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="GS2">
+      <description>2-pin jumper/solder bridge</description>
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS2</field>
+        <field name="Footprint">Connectors:GS2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="GS3">
+      <description>3-pin jumper/solder bridge</description>
+      <footprints>
+        <fp>GS*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">GS3</field>
+        <field name="Footprint">Connectors:GS3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G1" type="passive"/>
+        <pin num="2" name="G2" type="passive"/>
+        <pin num="3" name="G3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kuro" part="KT3225T">
+      <description>Kyocera 32.768kHz TCXO</description>
+      <footprints>
+        <fp>KT3225T</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KT3225T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="passive"/>
+        <pin num="4" name="Vss" type="passive"/>
+        <pin num="5" name="CLK" type="passive"/>
+        <pin num="8" name="Vdd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_ALT">
+      <description>LED generic, alternativ symbol</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="MCP1700-3002E_SOT23">
+      <aliases>
+        <alias>MCP1700-1202E_SOT23</alias>
+        <alias>MCP1700-1802E_SOT23</alias>
+        <alias>MCP1700-2502E_SOT23</alias>
+        <alias>MCP1700-2802E_SOT23</alias>
+        <alias>MCP1700-3302E_SOT23</alias>
+        <alias>MCP1700-5002E_SOT23</alias>
+      </aliases>
+      <description>250mA Low Quiscent Current LDO, 3.0V output, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700-3002E_SOT23</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TEST">
+      <description>Testpoint, connection for test equipment</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Primayer" part="TPIC6B595">
+      <description>Texas power shift register</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tpic6b595.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPIC6B595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="Vcc" type="passive"/>
+        <pin num="3" name="SER_IN" type="passive"/>
+        <pin num="4" name="DRAIN0" type="passive"/>
+        <pin num="5" name="DRAIN1" type="passive"/>
+        <pin num="6" name="DRAIN2" type="passive"/>
+        <pin num="7" name="DRAIN3" type="passive"/>
+        <pin num="8" name="~SRCLR" type="passive"/>
+        <pin num="9" name="~G" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="RCK" type="passive"/>
+        <pin num="13" name="SRCK" type="passive"/>
+        <pin num="14" name="DRAIN4" type="passive"/>
+        <pin num="15" name="DRAIN5" type="passive"/>
+        <pin num="16" name="DRAIN6" type="passive"/>
+        <pin num="17" name="DRAIN7" type="passive"/>
+        <pin num="18" name="SER_OUT" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kuro" part="TPS54302">
+      <description>4.5-V to 28-V Input, 3-A Output, EMI Friendly Synchronous Step-Down Converter</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps54302.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54302</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="SW" type="passive"/>
+        <pin num="3" name="VIN" type="passive"/>
+        <pin num="4" name="FB" type="passive"/>
+        <pin num="5" name="EN" type="passive"/>
+        <pin num="6" name="BOOT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="USB_A">
+      <description>USB Type A connector</description>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>C:\Program Files\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="kuro">
+      <uri>C:\Program Files\KiCad\share\kicad\library\kuro68k\kuro.lib</uri>
+    </library>
+    <library logical="Primayer">
+      <uri>C:\Program Files\KiCad\share\kicad\library\Primayer\Primayer.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C5" pin="1"/>
+      <node ref="U9" pin="17"/>
+      <node ref="U9" pin="32"/>
+      <node ref="J7" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="JMP2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C15-Pad1)">
+      <node ref="U9" pin="20"/>
+      <node ref="C15" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U4" pin="19"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J6" pin="8"/>
+      <node ref="M4" pin="1"/>
+      <node ref="M3" pin="1"/>
+      <node ref="M2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J14" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J7" pin="6"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U8" pin="19"/>
+      <node ref="U8" pin="11"/>
+      <node ref="U8" pin="10"/>
+      <node ref="U5" pin="19"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U9" pin="18"/>
+      <node ref="U7" pin="19"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U9" pin="19"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="5" name="/NTC_EN">
+      <node ref="U9" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U9" pin="24"/>
+    </net>
+    <net code="8" name="Net-(U9-Pad2)">
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J14-Pad4)">
+      <node ref="J14" pin="4"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J14-Pad2)">
+      <node ref="U9" pin="6"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J14-Pad3)">
+      <node ref="J14" pin="3"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="12" name="/SDA">
+      <node ref="R2" pin="2"/>
+      <node ref="U9" pin="28"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="13" name="/SCL">
+      <node ref="U9" pin="27"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="14" name="/~SRCLR">
+      <node ref="U2" pin="8"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U9" pin="14"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U7" pin="8"/>
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="15" name="VPP">
+      <node ref="J6" pin="1"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J10" pin="5"/>
+      <node ref="JMP3" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J10" pin="6"/>
+      <node ref="J10" pin="8"/>
+      <node ref="J10" pin="7"/>
+      <node ref="JMP1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J10" pin="3"/>
+      <node ref="C19" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="16" name="/SRCK">
+      <node ref="U5" pin="13"/>
+      <node ref="U4" pin="13"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U9" pin="11"/>
+      <node ref="J5" pin="4"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="17" name="/RCK">
+      <node ref="U8" pin="12"/>
+      <node ref="U3" pin="12"/>
+      <node ref="J5" pin="5"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="18" name="/~G">
+      <node ref="U3" pin="9"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U9" pin="15"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="19" name="Net-(J5-Pad8)">
+      <node ref="JMP4" pin="2"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="20" name="Net-(J12-Pad1)">
+      <node ref="U8" pin="4"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J12-Pad2)">
+      <node ref="U8" pin="5"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="22" name="Net-(J12-Pad3)">
+      <node ref="U8" pin="6"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="23" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4"/>
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="24" name="Net-(J12-Pad5)">
+      <node ref="J12" pin="5"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="25" name="Net-(J12-Pad6)">
+      <node ref="J12" pin="6"/>
+      <node ref="U8" pin="15"/>
+    </net>
+    <net code="26" name="Net-(J12-Pad7)">
+      <node ref="J12" pin="7"/>
+      <node ref="U8" pin="16"/>
+    </net>
+    <net code="27" name="Net-(J12-Pad8)">
+      <node ref="J12" pin="8"/>
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad3)">
+      <node ref="U7" pin="18"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="29" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="JMP2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U9-Pad31)">
+      <node ref="U9" pin="31"/>
+    </net>
+    <net code="31" name="/SER_IN">
+      <node ref="U9" pin="9"/>
+      <node ref="JMP4" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C19-Pad2)">
+      <node ref="U10" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C19" pin="2"/>
+    </net>
+    <net code="33" name="Net-(U10-Pad5)">
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="34" name="/BTN1">
+      <node ref="SW1" pin="2"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="35" name="/BTN2">
+      <node ref="U9" pin="13"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="36" name="/RX">
+      <node ref="J6" pin="5"/>
+      <node ref="U9" pin="22"/>
+    </net>
+    <net code="37" name="/TX">
+      <node ref="U9" pin="21"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="38" name="/XCK">
+      <node ref="J6" pin="7"/>
+      <node ref="U9" pin="23"/>
+    </net>
+    <net code="39" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U9-Pad30)">
+      <node ref="U9" pin="30"/>
+    </net>
+    <net code="41" name="Net-(U9-Pad29)">
+      <node ref="U9" pin="29"/>
+    </net>
+    <net code="42" name="Net-(U9-Pad12)">
+      <node ref="U9" pin="12"/>
+    </net>
+    <net code="43" name="/SER_OUT">
+      <node ref="JMP4" pin="1"/>
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="47" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad20)">
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="51" name="Net-(U8-Pad20)">
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="52" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U7-Pad20)">
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="54" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C17-Pad1)">
+      <node ref="U10" pin="6"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C18-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="JMP3" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="57" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad1)">
+      <node ref="JMP1" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="59" name="Net-(J7-Pad4)">
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="60" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="61" name="/PDI_C">
+      <node ref="U9" pin="8"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="62" name="/PDI_D">
+      <node ref="J7" pin="1"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="63" name="/USB_DM">
+      <node ref="J2" pin="3"/>
+      <node ref="U9" pin="26"/>
+    </net>
+    <net code="64" name="/USB_DP">
+      <node ref="J2" pin="2"/>
+      <node ref="U9" pin="25"/>
+    </net>
+    <net code="65" name="Net-(J8-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="66" name="Net-(J8-Pad3)">
+      <node ref="U4" pin="6"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="67" name="Net-(J8-Pad4)">
+      <node ref="U4" pin="7"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="68" name="Net-(J8-Pad5)">
+      <node ref="U4" pin="14"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="69" name="Net-(J8-Pad6)">
+      <node ref="U4" pin="15"/>
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="70" name="Net-(J8-Pad7)">
+      <node ref="J8" pin="7"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="71" name="Net-(J8-Pad8)">
+      <node ref="J8" pin="8"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="72" name="Net-(U4-Pad18)">
+      <node ref="U7" pin="3"/>
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="73" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="74" name="Net-(J3-Pad8)">
+      <node ref="U2" pin="17"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="75" name="Net-(J3-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="76" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="77" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="78" name="Net-(J3-Pad4)">
+      <node ref="U2" pin="7"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="79" name="Net-(J3-Pad5)">
+      <node ref="U2" pin="14"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="80" name="Net-(J3-Pad6)">
+      <node ref="J3" pin="6"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="81" name="Net-(J3-Pad7)">
+      <node ref="J3" pin="7"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="82" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="83" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="84" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="85" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="86" name="Net-(J4-Pad3)">
+      <node ref="U3" pin="6"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="87" name="Net-(J4-Pad4)">
+      <node ref="U3" pin="7"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="88" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="89" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="90" name="Net-(J4-Pad7)">
+      <node ref="U3" pin="16"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="91" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="92" name="Net-(J9-Pad2)">
+      <node ref="J9" pin="2"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="93" name="Net-(J9-Pad3)">
+      <node ref="U5" pin="6"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="94" name="Net-(J9-Pad7)">
+      <node ref="J9" pin="7"/>
+      <node ref="U5" pin="16"/>
+    </net>
+    <net code="95" name="Net-(J9-Pad8)">
+      <node ref="U5" pin="17"/>
+      <node ref="J9" pin="8"/>
+    </net>
+    <net code="96" name="Net-(U5-Pad18)">
+      <node ref="U8" pin="3"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="97" name="Net-(J9-Pad4)">
+      <node ref="U5" pin="7"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="98" name="Net-(J9-Pad5)">
+      <node ref="J9" pin="5"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="99" name="Net-(J9-Pad6)">
+      <node ref="J9" pin="6"/>
+      <node ref="U5" pin="15"/>
+    </net>
+    <net code="100" name="Net-(U3-Pad18)">
+      <node ref="U5" pin="3"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="101" name="Net-(J11-Pad2)">
+      <node ref="U7" pin="5"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="102" name="Net-(J11-Pad3)">
+      <node ref="J11" pin="3"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="103" name="Net-(J11-Pad4)">
+      <node ref="U7" pin="7"/>
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="104" name="Net-(J11-Pad5)">
+      <node ref="U7" pin="14"/>
+      <node ref="J11" pin="5"/>
+    </net>
+    <net code="105" name="Net-(J11-Pad6)">
+      <node ref="U7" pin="15"/>
+      <node ref="J11" pin="6"/>
+    </net>
+    <net code="106" name="Net-(J11-Pad7)">
+      <node ref="J11" pin="7"/>
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="107" name="Net-(J11-Pad8)">
+      <node ref="U7" pin="17"/>
+      <node ref="J11" pin="8"/>
+    </net>
+    <net code="108" name="Net-(J11-Pad1)">
+      <node ref="J11" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+  </nets>
+</export>
