@@ -1667,7 +1667,6 @@ NoConn ~ 4850 5650
 NoConn ~ 4850 5750
 NoConn ~ 4850 5850
 NoConn ~ 4850 5950
-NoConn ~ 4850 6450
 NoConn ~ 4850 6550
 Entry Wire Line
 	9050 6100 9150 6200
@@ -1702,7 +1701,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 4500 1800 5950
 Connection ~ 1800 5950
-NoConn ~ 4850 6750
 Text Label 1800 6750 0    60   ~ 0
 RX
 Text Label 1800 6850 0    60   ~ 0
@@ -2266,4 +2264,60 @@ Wire Wire Line
 	-550 6300 -500 6300
 Wire Wire Line
 	-550 6400 -500 6400
+$Comp
+L SW_Push SW1
+U 1 1 5B34B57E
+P -1900 4250
+F 0 "SW1" H -1850 4350 50  0000 L CNN
+F 1 "SW_Push" H -1900 4190 50  0001 C CNN
+F 2 "kuro:Switch_FSM-JSM-Series" H -1900 4450 50  0001 C CNN
+F 3 "" H -1900 4450 50  0001 C CNN
+	1    -1900 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW2
+U 1 1 5B34B936
+P -1900 4450
+F 0 "SW2" H -1850 4550 50  0000 L CNN
+F 1 "SW_Push" H -1900 4390 50  0001 C CNN
+F 2 "kuro:Switch_FSM-JSM-Series" H -1900 4650 50  0001 C CNN
+F 3 "" H -1900 4650 50  0001 C CNN
+	1    -1900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR056
+U 1 1 5B34BA0A
+P -2150 4500
+F 0 "#PWR056" H -2150 4250 50  0001 C CNN
+F 1 "GND" H -2150 4350 50  0000 C CNN
+F 2 "" H -2150 4500 50  0001 C CNN
+F 3 "" H -2150 4500 50  0001 C CNN
+	1    -2150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2100 4250 -2150 4250
+Wire Wire Line
+	-2150 4250 -2150 4500
+Wire Wire Line
+	-2100 4450 -2150 4450
+Connection ~ -2150 4450
+Text Label -1400 4250 2    60   ~ 0
+BTN1
+Text Label -1400 4450 2    60   ~ 0
+BTN2
+Wire Wire Line
+	-1400 4450 -1700 4450
+Wire Wire Line
+	-1700 4250 -1400 4250
+Text Label 5350 6450 2    60   ~ 0
+BTN2
+Text Label 5350 6750 2    60   ~ 0
+BTN1
+Wire Wire Line
+	4850 6450 5350 6450
+Wire Wire Line
+	5350 6750 4850 6750
 $EndSCHEMATC
