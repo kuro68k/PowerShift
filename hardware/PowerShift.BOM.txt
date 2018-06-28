@@ -1,0 +1,66 @@
+Title:      Power shift register driver
+Date:       28/06/2018 15:45:20
+Source:     PowerShift.sch
+Revsision:  1.0
+
+No.  Reference             Value           Footprint                       Precision
+
+[ Capacitors, 5 values, X7R/X5R, 16V unless otherwise stated ]
+------------------------------------------------------------------------------------
+4    C1, C3, C18, C20      22u             0805                            
+2    C2, C4                10u             0603                            
+13   C5, C6, C7, C8, C9    100n            0603                            
+     C10, C11, C12, C13
+     C14, C17, C21, C22
+2    C15, C16              18p             0603                            
+1    C19                   91p             0603                            
+
+[ Diodes, 1 value ]
+------------------------------------------------------------------------------------
+1    D1                    LED_ALT         0603                            
+
+[ Connectors, 7 values ]
+------------------------------------------------------------------------------------
+1    J1                    Barrel_Jack     DC_Jack_SMD_FC6814xS_6941       
+1    J2                    MICRO_USB       Molex_47346-0001_Micro_USB_SMT  
+6    J3, J4, J8, J9, J11   JST-ZR          B8B-ZR-SM4-TF                   
+     J12
+1    J5                    SHIFT_IN        ...r_Straight_1x08_Pitch2.54mm  
+2    J6, J10               SHIFT_IN        B8B-ZR-SM4-TF                   
+1    J7                    AVR-PDI-6A      ...der_Angled_2x03_Pitch2.54mm  
+1    J14                   JST-ZR          B5B-ZR-SM4-TF                   
+
+[ JMP, 2 values ]
+------------------------------------------------------------------------------------
+3    JMP1, JMP2, JMP3      GS2             GS2                             
+1    JMP4                  GS3             GS3                             
+
+[ Inductors, 1 value ]
+------------------------------------------------------------------------------------
+1    L1                    12u             Bourns_SDR1307_14x14mm          
+
+[ Resistors, 5 values, 1% unless otherwise stated ]
+------------------------------------------------------------------------------------
+2    R1, R2                2k2             0603                            
+1    R3                    Rntc            0603                            
+1    R4                    1k              0603                            
+1    R5                    100k            0603                            
+1    R6                    10.1k           0603                            
+
+[ SW, 1 value ]
+------------------------------------------------------------------------------------
+2    SW1, SW2              SW_Push         Switch_FSM-JSM-Series           
+
+[ Integrated Circuits, 5 values ]
+------------------------------------------------------------------------------------
+1    U1                    MCP1700         SOT-23                          
+6    U2, U3, U4, U5, U7    TPIC6B595       ...-20W_7.5x12.8mm_Pitch1.27mm  
+     U8
+1    U6                    KT3225T         KT3225T                         
+1    U9                    ATXMEGA32E5-AU  TQFP-32                         
+1    U10                   TPS54302        SOT-23                          
+
+[ Crystals, 1 value ]
+------------------------------------------------------------------------------------
+1    Y1                    Crystal         QC6CB/7A/ABM7 crystals          
+
