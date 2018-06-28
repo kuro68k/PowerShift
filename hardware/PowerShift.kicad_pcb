@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title PowerShift)
+    (rev 1.0)
+    (comment 4 "Licence: GPLv3")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal hide)
