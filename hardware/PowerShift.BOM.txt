@@ -1,5 +1,5 @@
 Title:      Power shift register driver
-Date:       28/06/2018 15:45:20
+Date:       28/06/2018 16:40:15
 Source:     PowerShift.sch
 Revsision:  1.0
 
@@ -62,5 +62,5 @@ No.  Reference             Value           Footprint                       Preci
 
 [ Crystals, 1 value ]
 ------------------------------------------------------------------------------------
-1    Y1                    Crystal         QC6CB/7A/ABM7 crystals          
+1    Y1                    Crystal         ...al_2pin_6x3.5_3.2x1.5_Multi  
 
