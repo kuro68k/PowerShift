@@ -9,6 +9,7 @@
 _autosave-*
 svg/
 .old/
+hardware/plot
 
 # Build results
 [Dd]ebug/
