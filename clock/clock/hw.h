@@ -24,6 +24,9 @@
 #define LED_PORT				PORTC
 #define LED_PIN_bm				PIN4_bm
 
+#define NTC_PORT				PORTA
+#define NTC_EN_PIN_bm			PIN3_bm
+
 
 extern void HW_init(void);
 extern void HW_led_on(void);

@@ -8,6 +8,7 @@
 #include <avr/pgmspace.h>
 #include <avr/interrupt.h>
 #include <stdio.h>
+#include <stddef.h>
 #include "stdio_fast.h"
 #include "xmega.h"
 #include "hw.h"
@@ -74,6 +75,10 @@ void HW_init(void)
 	TCC5.PER = 1953;	// 1Hz
 	TCC5.CCA = 500;
 	TCC5.CTRLA = TC_CLKSEL_DIV1024_gc;
+
+	// ADC calibration
+	ADCA.CAL = NVM_read_production_signature_byte(offsetof(NVM_PROD_SIGNATURES_t, ADCACAL0)) |
+			   (NVM_read_production_signature_byte(offsetof(NVM_PROD_SIGNATURES_t, ADCACAL1)) << 8);
 
 	// start interrupts
 	CCPWrite(&PMIC.CTRL, PMIC_LOLVLEN_bm | PMIC_MEDLVLEN_bm | PMIC_HILVLEN_bm);
