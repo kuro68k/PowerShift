@@ -22,7 +22,7 @@ void HW_init(void)
 {
 	// IO pins
 	PORTA.OUT = 0x00;
-	PORTA.DIR = 0xFF;
+	PORTA.DIR = (uint8_t)(~VPP_CTRL_PIN_bm);	// start with low voltage
 
 	PORTC.OUT = SR_OE_PIN_bm;		// OE active low
 	PORTC.DIR = ~(BUTTON1_PIN_bm | BUTTON2_PIN_bm);

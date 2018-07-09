@@ -9,6 +9,9 @@
 #define HW_H_
 
 
+#define VPP_CTRL_PORT			PORTA
+#define VPP_CTRL_PIN_bm			PIN7_bm
+
 #define BUTTON_PORT				PORTC
 #define BUTTON1_PIN_bm			PIN6_bm
 #define BUTTON2_PIN_bm			PIN3_bm
