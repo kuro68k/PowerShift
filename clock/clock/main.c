@@ -19,6 +19,21 @@ int main(void)
 	RTC_init();
 	SEG_init();
 
+
+	uint8_t test[5];
+	uint8_t shift = 1;
+	for (;;)
+	{
+		for (uint8_t i = 0; i < sizeof(test); i++)
+			test[i] = shift;
+		shift <<= 1;
+		if (shift == 0)
+			shift = 1;
+		SEG_set_display(test);
+		_delay_ms(500);
+	}
+
+
 	SLEEP.CTRL = SLEEP_SMODE_IDLE_gc | SLEEP_SEN_bm;
 	for(;;)
 	{

@@ -47,9 +47,9 @@ void SEG_init(void)
 }
 
 /**************************************************************************************************
-* Set display
+* Set display shift registers
 */
-void seg_set_display(uint8_t *str)
+void SEG_set_display(uint8_t *str)
 {
 	SR_PORT.OUTCLR = SR_RCLK_PIN_bm;
 
@@ -103,5 +103,5 @@ void SEG_show_time(RTC_TIME_t *time, uint8_t mask)
 		m <<= 1;
 	}
 
-	seg_set_display(digits);
+	SEG_set_display(digits);
 }
